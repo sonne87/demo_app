@@ -1,4 +1,26 @@
+
+
+
+
+
+
 DemoApp::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
+   # Zeile sorgt dafür, dass edit, show, new und delete möglich sind
+
+
+
+
+
+
+
+
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
